@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        body {
+            background-image: url('background.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+			
+            font-size: 22px;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            position: -webkit-sticky; 
+            position: sticky;
+            top: 0;
+        }
+        li {
+            float: left;
+        }
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover {
+            background-color: orange;
+        }
+        .active {
+            background-color: orange;
+        }
+        
+        div {
+             background-color: lightgrey;
+             width: 300px;
+             border: 15px solid orange;
+             padding: 50px;
+             margin: 20px;
+         }
+    
+    </style>
+</head>
+<body>
+<header>
+    <h2>Santana Jolly</h2>
+    <p>Programmer. Student. Humanitarian.</p>
+</header>
+
+    <ul>
+        <li><a asp-area="" asp-controller="Home" asp-action="">Profile</a></li>
+        <li><a asp-area="" asp-controller="Home" asp-action="Education">Education</a></li>
+        <li><a asp-area="" asp-controller="Home" asp-action="Experience">Experience</a></li>
+        <li><a asp-area="" asp-controller="Home" asp-action="Skills">Skills</a></li>
+        <li><a asp-area="" asp-controller="Home" asp-action="Projects">Projects</a></li>
+        <li><a asp-area="" asp-controller="Home" asp-action="Hobbies">Hobbies</a></li>
+        <li style="float:right"> <a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+    </ul>
+
+</body>
+</html>
+<div class="container body-content">
+    @RenderBody()
+    <hr />
+</div>
+
+
+
+ 
+               
+
+   
+
+    
+
+   
