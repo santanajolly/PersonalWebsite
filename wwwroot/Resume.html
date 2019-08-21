@@ -1,0 +1,597 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Calibri Light";
+	panose-1:2 15 3 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:Consolas;
+	panose-1:2 11 6 9 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	punctuation-wrap:simple;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+h1
+	{mso-style-link:"Heading 1 Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	color:black;
+	font-weight:bold;
+	text-decoration:underline;}
+h3
+	{mso-style-link:"Heading 3 Char";
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	page-break-after:avoid;
+	punctuation-wrap:simple;
+	font-size:12.0pt;
+	font-family:"Cambria",serif;
+	color:#243F60;
+	font-weight:normal;}
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+	{mso-style-link:"Comment Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	punctuation-wrap:simple;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"Header Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	punctuation-wrap:simple;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"Footer Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	punctuation-wrap:simple;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p.MsoPlainText, li.MsoPlainText, div.MsoPlainText
+	{mso-style-link:"Plain Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	punctuation-wrap:simple;
+	font-size:10.5pt;
+	font-family:Consolas;}
+p
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:107%;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
+	{mso-style-link:"Comment Subject Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	punctuation-wrap:simple;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Balloon Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	punctuation-wrap:simple;
+	font-size:9.0pt;
+	font-family:"Segoe UI",sans-serif;}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{margin:0in;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	punctuation-wrap:simple;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-link:"List Paragraph Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	punctuation-wrap:simple;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{mso-style-link:"List Paragraph Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	punctuation-wrap:simple;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{mso-style-link:"List Paragraph Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	punctuation-wrap:simple;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{mso-style-link:"List Paragraph Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	punctuation-wrap:simple;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.apple-converted-space
+	{mso-style-name:apple-converted-space;}
+span.CommentTextChar
+	{mso-style-name:"Comment Text Char";
+	mso-style-link:"Comment Text";
+	font-family:"Times New Roman",serif;}
+span.CommentSubjectChar
+	{mso-style-name:"Comment Subject Char";
+	mso-style-link:"Comment Subject";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-link:"Balloon Text";
+	font-family:"Segoe UI",sans-serif;}
+span.ListParagraphChar
+	{mso-style-name:"List Paragraph Char";
+	mso-style-link:"List Paragraph";
+	font-family:"Times New Roman",serif;}
+p.Default, li.Default, div.Default
+	{mso-style-name:Default;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	color:black;}
+span.Heading1Char
+	{mso-style-name:"Heading 1 Char";
+	mso-style-link:"Heading 1";
+	font-family:"Times New Roman",serif;
+	color:black;
+	font-weight:bold;
+	text-decoration:underline;}
+span.UnresolvedMention1
+	{mso-style-name:"Unresolved Mention1";
+	color:gray;
+	background:#E6E6E6;}
+span.UnresolvedMention2
+	{mso-style-name:"Unresolved Mention2";
+	color:gray;
+	background:#E6E6E6;}
+span.HeaderChar
+	{mso-style-name:"Header Char";
+	mso-style-link:Header;
+	font-family:"Times New Roman",serif;}
+span.FooterChar
+	{mso-style-name:"Footer Char";
+	mso-style-link:Footer;
+	font-family:"Times New Roman",serif;}
+span.Heading3Char
+	{mso-style-name:"Heading 3 Char";
+	mso-style-link:"Heading 3";
+	font-family:"Cambria",serif;
+	color:#243F60;}
+p.pv-entitydescription, li.pv-entitydescription, div.pv-entitydescription
+	{mso-style-name:pv-entity__description;
+	margin-right:0in;
+	margin-left:0in;
+	line-height:normal;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.PlainTextChar
+	{mso-style-name:"Plain Text Char";
+	mso-style-link:"Plain Text";
+	font-family:Consolas;}
+.MsoChpDefault
+	{font-size:10.0pt;
+	font-family:"Calibri",sans-serif;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 11.0in;
+	margin:.5in .5in .2in .5in;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:8.5in 11.0in;
+	margin:.5in .5in .2in .5in;}
+div.WordSection2
+	{page:WordSection2;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US link=blue vlink=purple>
+
+<div class=WordSection1></div>
+
+<span style='font-size:11.0pt;font-family:"Calibri",sans-serif'><br clear=all
+style='page-break-before:auto'>
+</span>
+
+<div class=WordSection2>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span
+style='font-size:16.0pt;font-family:"Calibri",sans-serif'>PROFESSIONAL
+EXPERIENCE</span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span
+style='font-size:11.0pt;font-family:"Calibri",sans-serif'>&nbsp;</span></b></p>
+
+<p class=MsoNormal><b><span style='font-size:14.0pt;font-family:"Calibri",sans-serif'>Microsoft
+Software and Systems Academy                                                                                                                                          2019
+– Present </span></b></p>
+
+<p class=MsoNormal><b><span style='font-size:14.0pt;font-family:"Calibri",sans-serif'>Student</span></b></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;font-family:"Calibri",sans-serif;
+color:black;background:white'>Extensive 18 week, hands on cloud application
+development program created by Microsoft and administered via college
+accredited courses with the goal of preparing transitioning service members for
+technical opportunities outside of the military. </span></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-.25in'><span
+style='font-size:14.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:14.0pt;font-family:"Calibri",sans-serif;
+color:black;background:white'>Five courses; 16 credit hours total</span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-.25in'><span
+style='font-size:14.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:14.0pt;font-family:"Calibri",sans-serif;
+color:black;background:white'>Established fundamentals of programming logic,
+development, troubleshooting and design</span></p>
+
+<p class=MsoNoSpacing style='margin-left:.5in;text-align:justify;text-indent:
+-.25in;punctuation-wrap:hanging'><span style='font-size:14.0pt;font-family:
+Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN style='font-size:14.0pt;font-family:"Calibri",sans-serif'>Detailed
+advanced techniques of C# programming within Microsoft Visual Studio 2017</span></p>
+
+<p class=MsoNoSpacing style='margin-left:.5in;text-align:justify;text-indent:
+-.25in;punctuation-wrap:hanging'><span style='font-size:14.0pt;font-family:
+Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN style='font-size:14.0pt;font-family:"Calibri",sans-serif'>Established
+advanced SQL database management techniques using Microsoft SQL Server
+Management Studio</span></p>
+
+<p class=MsoNoSpacing style='margin-left:.5in;text-align:justify;text-indent:
+-.25in;punctuation-wrap:hanging'><span style='font-size:14.0pt;font-family:
+Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN style='font-size:14.0pt;font-family:"Calibri",sans-serif'>Developed
+ASP.Net web applications within Visual Studio and deployed them through
+Microsoft Azure</span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span
+style='font-size:14.0pt;font-family:"Calibri",sans-serif'>&nbsp;</span></b></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><b><span style='font-size:
+14.0pt;font-family:"Calibri",sans-serif'>Technical Control Consultants – Camp
+Lejeune                                                                                                                                2018
+– 2019</span></b></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><b><span style='font-size:
+14.0pt;font-family:"Calibri",sans-serif'>Lead Microsoft Instructor </span></b></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:106%;punctuation-wrap:
+hanging'><span style='font-size:14.0pt;line-height:106%;font-family:"Calibri",sans-serif'>Presented
+lesson plans to meet rapid short-term training requirements and refresher
+training for the Marine Corps Communication Training Center located at Camp
+Lejeune. </span></p>
+
+<p class=MsoNoSpacing style='margin-left:.5in;text-align:justify;text-indent:
+-.25in;punctuation-wrap:hanging'><span style='font-size:14.0pt;font-family:
+Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN style='font-size:14.0pt;font-family:"Calibri",sans-serif'> Provided
+practical application training for 129 students and over 960 classroom hours
+ensuring personnel were adequately prepared for exams for Windows Server 2012,
+2016 and Exchange Server 2013, 2016</span></p>
+
+<p class=MsoNoSpacing style='margin-left:.5in;text-align:justify;text-indent:
+-.25in;punctuation-wrap:hanging'><span style='font-size:14.0pt;font-family:
+Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN style='font-size:14.0pt;font-family:"Calibri",sans-serif'>Developed
+programs of instruction and taught Microsoft certification courses to senior
+server administrators with better than an 80% pass rate</span></p>
+
+<p class=MsoNoSpacing style='margin-left:.5in;text-align:justify;text-indent:
+-.25in;punctuation-wrap:hanging'><span style='font-size:14.0pt;font-family:
+Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN style='font-size:14.0pt;font-family:"Calibri",sans-serif'>Conducted
+instruction and testing for NetApp, Virtualization Administration, SolarWinds
+and CCNA courses</span></p>
+
+<p class=MsoNoSpacing style='margin-left:.5in;text-align:justify;text-indent:
+-.25in;punctuation-wrap:hanging'><span style='font-size:14.0pt;font-family:
+Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN style='font-size:14.0pt;font-family:"Calibri",sans-serif'>Provided
+hands-on practical application training for Marines to practice individual
+server skills prior to testing </span></p>
+
+<p class=MsoNoSpacing style='margin-left:.5in;text-align:justify;text-indent:
+-.25in;punctuation-wrap:hanging'><span style='font-size:14.0pt;font-family:
+Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN style='font-size:14.0pt;font-family:"Calibri",sans-serif'>Lead
+the curriculum development process of all server-related courses, including
+updating Microsoft instruction</span></p>
+
+<p class=MsoNormal style='text-align:justify'><b><span style='font-size:14.0pt;
+font-family:"Calibri",sans-serif'>&nbsp;</span></b></p>
+
+<p class=MsoNormal style='text-align:justify'><b><span style='font-size:14.0pt;
+font-family:"Calibri",sans-serif'>United States Marine Corps – Various
+Locations                                                                                                                             2014
+– 2018</span></b></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><b><span style='font-size:
+14.0pt;font-family:"Calibri",sans-serif'>Systems Administrator</span></b></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt;
+font-family:"Calibri",sans-serif'>Served as the Data Systems Supervisor for 30
+employees. Oversaw the daily performance of computer systems. Protected system
+security and database integrity and updated and resolved hardware and software
+issues. Served as the Helpdesk Supervisor; supervised 15 employees and provided
+24–hour helpdesk support and maintenance services for 75+ customers.</span></p>
+
+<p class=MsoNoSpacing style='margin-left:.5in;text-align:justify;text-indent:
+-.25in;punctuation-wrap:hanging'><span style='font-size:14.0pt;font-family:
+Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN style='font-size:14.0pt;font-family:"Calibri",sans-serif'>Performed
+software installations and upgrades to operating systems and layered software
+packages; </span><span style='font-size:14.0pt;font-family:"Calibri",sans-serif'>configured,
+updated and maintained servers; ensured implementation of scheduled maintenance</span></p>
+
+<p class=MsoNoSpacing style='margin-left:.5in;text-align:justify;text-indent:
+-.25in;punctuation-wrap:hanging'><span style='font-size:14.0pt;font-family:
+Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN style='font-size:14.0pt;font-family:"Calibri",sans-serif'>Ensured
+data recoverability by implementing a schedule of system backups and database
+archive operations</span></p>
+
+<p class=MsoNoSpacing style='margin-left:.5in;text-align:justify;text-indent:
+-.25in'><span style='font-size:14.0pt;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN style='font-size:14.0pt;font-family:"Calibri",sans-serif'>Conducted
+routine hardware and software audits of workstations and servers for compliance
+set forth by configuration guidelines and procedures</span><span
+style='font-size:14.0pt;font-family:"Calibri",sans-serif'>; p</span><span
+style='font-size:14.0pt;font-family:"Calibri",sans-serif'>rovided servers,
+services, and end user devices within tactical networks</span></p>
+
+<p class=MsoNoSpacing style='margin-left:.5in;text-align:justify;text-indent:
+-.25in'><span style='font-size:14.0pt;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:14.0pt;font-family:"Calibri",sans-serif'>Created and monitored
+an Active Directory environment with multiple sites laying the groundwork for
+effective group Policy Management and User Access Control</span></p>
+
+<p class=MsoNoSpacing style='margin-left:.5in;text-align:justify;text-indent:
+-.25in'><span style='font-size:14.0pt;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:14.0pt;font-family:"Calibri",sans-serif'>Implemented Windows
+Server 2012 domain with Active Directory, Microsoft Exchange, Windows Update
+functionality and trained 50+ users on proper use of hardware/software</span></p>
+
+<p class=MsoNoSpacing style='margin-left:.5in;text-align:justify;text-indent:
+-.25in'><span style='font-size:14.0pt;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:14.0pt;font-family:"Calibri",sans-serif'>Supervised server
+installation and administration, to include the management of voice and video
+support and network security</span></p>
+
+<p class=MsoNoSpacing style='margin-left:.5in;text-align:justify;text-indent:
+-.25in'><span style='font-size:14.0pt;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:14.0pt;font-family:"Calibri",sans-serif'>Provided technical
+expertise for the configuration/installation of server-related processes;
+created and maintained multiple databases, network accounts, and programs for
+specific department needs</span></p>
+
+<p class=MsoNoSpacing style='margin-left:.5in;text-align:justify;text-indent:
+-.25in'><span style='font-size:14.0pt;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:14.0pt;font-family:"Calibri",sans-serif'>Developed a fault –
+tolerant virtual server environment for nine servers; provided email, web
+browsing, file sharing to over 100 users across multiple tactical networks</span></p>
+
+<p class=MsoNoSpacing style='margin-left:.5in;text-align:justify;text-indent:
+-.25in'><span style='font-size:14.0pt;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:14.0pt;font-family:"Calibri",sans-serif'>Maintained a ticket
+tracker to record daily data communication links, problems, and remedial actions
+taken; identified and corrected performance issues to ensure 100% customer
+satisfaction</span></p>
+
+<p class=MsoNormal style='text-align:justify'><b><span style='font-size:14.0pt;
+font-family:"Calibri",sans-serif'>&nbsp;</span></b></p>
+
+<p class=MsoNormal style='text-align:justify'><b><span style='font-size:14.0pt;
+font-family:"Calibri",sans-serif'>Data Network Supervisor</span></b></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:14.0pt;
+font-family:"Calibri",sans-serif'>Served as Data Network Supervisor for the
+Marine Corps East Installations’ Network Management Branch. </span><span
+style='font-size:14.0pt;font-family:"Calibri",sans-serif'>Provided technical
+support and training for personnel assigned to the Information Technology
+Support Center.</span></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-align:justify;text-indent:-.25in'><span
+style='font-size:14.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:14.0pt;font-family:"Calibri",sans-serif'>Installed,
+configured/maintained routers, switches, operating systems, and peripherals
+required to sustain the Information Technology infrastructure supporting Marine
+Corps Base Camp Lejeune and regional hubs  </span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-.25in'><span
+style='font-size:14.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:14.0pt;font-family:"Calibri",sans-serif'>Evaluated
+and resolved system connectivity problems for ten military bases throughout the
+region</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-.25in'><span
+style='font-size:14.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:14.0pt;font-family:"Calibri",sans-serif'>Created
+instructional procedures and training material to enhance user’s ability to
+execute proper programs </span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-.25in'><span
+style='font-size:14.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:14.0pt;font-family:"Calibri",sans-serif'>Conducted
+network performance analysis of various end user devices and completed proper
+procedures of errors; ensured proper performance and implemented
+troubleshooting steps for end user devices</span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-align:justify;text-indent:-.25in'><span
+style='font-size:14.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:14.0pt;font-family:"Calibri",sans-serif'>Supported
+and maintained the Milestone program to enhance the security camera database
+aboard Camp Lejeune and managed 250 cameras spanning across Marine Corps
+installations on the East Coast; implemented all security setting and approved
+updates to assigned Milestone Servers</span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span
+style='font-size:11.0pt;font-family:"Calibri",sans-serif'>&nbsp;</span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span
+style='font-size:16.0pt;font-family:"Calibri",sans-serif'>EDUCATION</span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:11.0pt;font-family:"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='punctuation-wrap:hanging'><b><span style='font-size:
+14.0pt;font-family:"Calibri",sans-serif'>Embry-Riddle Aeronautical University                                                                                                                                                 2019
+– Present </span></b></p>
+
+<p class=MsoNormal style='punctuation-wrap:hanging'><span style='font-size:
+14.0pt;font-family:"Calibri",sans-serif'>Microsoft Software and Systems Academy
+</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;font-family:"Calibri",sans-serif;
+color:black;background:white'>Extensive 18-week, hands-on cloud application
+development program created by Microsoft and administered via college courses
+with the goal of preparing transitioning service members for technical
+opportunities outside of the military. </span></p>
+
+<p class=MsoNormal style='punctuation-wrap:hanging'><b><span style='font-size:
+14.0pt;font-family:"Calibri",sans-serif'>&nbsp;</span></b></p>
+
+<p class=MsoNormal style='punctuation-wrap:hanging'><b><span style='font-size:
+14.0pt;font-family:"Calibri",sans-serif'>Coastal Carolina Community College                                                                                                                                                  </span></b><b><span
+style='font-size:14.0pt;font-family:"Calibri",sans-serif'>2018 – 2019</span></b></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in;punctuation-wrap:hanging'><span
+style='font-size:14.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:14.0pt;font-family:"Calibri",sans-serif'>Associates
+of Arts </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;font-family:"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal><b><span style='font-size:14.0pt;font-family:"Calibri",sans-serif'>Marine
+Corps School of Informational Technology and Communication                                                                                  </span></b><b><span
+style='font-size:14.0pt;font-family:"Calibri",sans-serif'>2014 – 2015</span></b></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-size:
+14.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:14.0pt;font-family:"Calibri",sans-serif'>The
+Data Systems Administrator Course consisted of </span><span style='font-size:
+14.0pt;font-family:"Calibri",sans-serif'>training in telephony fundamentals,
+VMware, Microsoft Server, Microsoft Exchange, and Solarwinds Network
+Performance Monitor</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span
+style='font-size:16.0pt;font-family:"Calibri",sans-serif'>MILITARY AWARDS</span></b></p>
+
+<p class=MsoNormal><b><span style='font-size:14.0pt;font-family:"Calibri",sans-serif'>Navy
+Meritorious Unit Commendation</span></b></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-size:
+14.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:14.0pt;font-family:"Calibri",sans-serif'>Awarded
+for valorous or meritorious achievement or service, rendering the unit
+outstanding </span></p>
+
+<p class=MsoNormal><b><span style='font-size:14.0pt;font-family:"Calibri",sans-serif'>&nbsp;</span></b></p>
+
+<p class=MsoNormal><b><span style='font-size:14.0pt;font-family:"Calibri",sans-serif'>Good
+Conduct Medal</span></b></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-size:
+14.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:14.0pt;font-family:"Calibri",sans-serif'>Completed
+three consecutive years of honorable and faithful service </span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>&nbsp;</span></p>
+
+</div>
+
+</body>
+
+</html>

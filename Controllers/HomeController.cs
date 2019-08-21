@@ -26,11 +26,8 @@ namespace PersonalWebsite.Controllers
         {
             return View();
         }
-        public ViewResult Hobbies()
-        {
-            return View();
-        }
-        public ViewResult Experience()
+        
+        public ViewResult Resume()
         {
             return View();
         }
